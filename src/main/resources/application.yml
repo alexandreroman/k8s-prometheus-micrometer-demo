@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: k8s-prometheus-micrometer-demo
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, metrics, prometheus
